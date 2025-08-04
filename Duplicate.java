@@ -5,6 +5,8 @@
 // Output: true
 //Time Complexity: O(n)
 // Space Complexity: O(n) for the distinct elements in the stream
+//Technique used: Using Java Streams to filter distinct elements and compare the count with the original array length.
+//Hash Table using Java Streams
 import java.util.*;
 
 public class Duplicate {

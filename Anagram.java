@@ -5,8 +5,10 @@
 // Example 1:
 // Input: s = "anagram", t = "nagaram"
 // Output: true
-//Time Complexity: O(n)
+//Time Complexity: O(n+m) where n is the length of string s and m is the length of string t.
 // Space Complexity: O(1) since the count array size is fixed at 26 for lowercase letters
+//Technique used: Counting characters using an array.
+//Hash Table using Array
 public class Anagram {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
