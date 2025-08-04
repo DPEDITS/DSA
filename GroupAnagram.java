@@ -6,6 +6,7 @@
 // Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 // Time Complexity: O(m * n) // where m is the number of strings in the input array and n is the maximum length of a string.
 // Space Complexity: O(m * n) // for the hashmap storing the grouped anagrams
+// Technique used: Using a HashMap to group anagrams by their character counts.
 import java.util.*;
 public class GroupAnagram {
         public List<List<String>> groupAnagrams(String[] strs) {

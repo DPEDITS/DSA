@@ -8,6 +8,7 @@
 //Time Complexity: O(n) where n is the length of the input array nums.
 // Space Complexity: O(n) for the hashmap used to store the indices of the numbers.
 //Explanation: The algorithm uses a single pass through the array, storing each number and its index in a hashmap. For each number, it checks if the complement (target - number) exists in the hashmap. If it does, it returns the indices of the two numbers.
+//Technique Used: Hash Table using a HashMap to store the indices of the numbers.
 import java.util.*;
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
