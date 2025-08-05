@@ -1,5 +1,13 @@
 //Leetcode Problem #347
 // Title: Top K Frequent Elements
+//// Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+// Example 1:
+// Input: nums = [1,1,1,2,2,3], k = 2
+// Output: [1,2]
+// Time Complexity: O(n) where n is the length of the input array nums.
+// Space Complexity: O(n) for the hashmap used to store the frequency of each number.
+// Explanation: The algorithm counts the frequency of each number using a hashmap, then uses an array of lists to group numbers by their frequency. Finally, it collects the top k frequent elements from the lists.
+// Technique Used: Bucket Sort using an array of lists to group numbers by their frequency.
 import java.util.*;
 
 public class TopKFrequent {
