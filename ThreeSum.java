@@ -1,4 +1,12 @@
-
+//// LeetCode Problem: 15. 3Sum
+// Title: 3Sum
+// This problem is about finding all unique triplets in an array that sum up to zero.
+// Example 1:
+// Input: nums = [-1,0,1,2,-1,-4]
+// Output: [[-1,-1,2],[-1,0,1]]
+// Time Complexity: O(n^2) where n is the length of the input array.
+// Space Complexity: O(m) for the output list, which can grow with the number of unique triplets found.
+//Technique: Two Pointers
 import java.util.*;
 
 public class ThreeSum {
