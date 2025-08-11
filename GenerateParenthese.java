@@ -1,4 +1,11 @@
-//
+//LeetCode 22. Generate Parentheses
+// https://leetcode.com/problems/generate-parentheses/
+// Time Complexity: O(4^n / sqrt(n))
+// Space Complexity: O(4^n / sqrt(n))
+// Input: n = 3
+// Output: ["((()))","(()())","(())()","()(())","()()()"]
+//Explanation: There are 5 valid combinations of 3 pairs of parentheses.
+// The code uses dynamic programming to generate all combinations of valid parentheses.
 import java.util.*;
 
 public class GenerateParenthese {
